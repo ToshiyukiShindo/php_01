@@ -1,0 +1,198 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4rem;
+}
+
+/* headerここから */
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: rgb(110, 106, 106);
+    padding: 0 20px;
+}
+.headerleft{
+    padding-top: 10px;
+    width: 30%;
+}
+.headerleft p{
+    color: white;
+    font-size: 18px;
+}
+
+.person{
+    border: none;
+    margin-left: 10px;
+}
+.headerright{
+    padding-top: 10px;
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 10px;
+}
+.headerright a{
+    font-size: 14px;
+}
+.nav{
+    width: 18vw;
+    margin-top: 10px;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    height: 400vh;
+}
+.nav__item{
+    list-style: none;
+    line-height: 1.8rem;
+}   
+.nav__item a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.userentry{
+    padding: 2vh 5vh 5vh 5vh;
+}
+.d-flex{
+    display: flex;
+    justify-content: end;
+}
+.input{
+    width: 35vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+.headerbottom{
+    border: 0.3px solod grey;
+}
+.undertext{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/* bodyここから */
+.main{
+    display: flex;
+    height: 400vh;
+}
+.sectionleft{
+    width: 18vw;
+    height: 400vh;
+    background-color: rgb(110, 106, 106);
+    border-right: 1px solid grey;
+    color: white;
+}
+.search{
+    height: 20vh;
+    width: 18vw;
+    padding-left: 1rem;
+}
+.category{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.category li{
+    list-style: none;
+}
+.label--checkbox{
+    font-size: 14px;
+}
+
+/* body右側 */
+.container{
+    margin: 3vw;
+    gap: 10px 5vw;
+    height: auto;
+}
+.title{
+    height: 30px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    font-size: 30px;
+    line-height: 1.3rem;
+}
+.card{
+    margin: 20px 10px;
+}
+.contents .contenttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+    box-shadow:0 0 5px 0 rgb(218, 216, 216);
+    opacity: 0.6;
+}
+.contents .contenttext:hover{
+    opacity: 1;
+    box-shadow:0 0 5px 3px rgb(218, 216, 216);
+}
+.contents.hidden{
+    display:none;
+}
+
+.Itementry{
+    width: 120vw;
+}
+.table{
+    overflow: auto;
+    width: 120vw;
+}
+.table2{
+    width: 120vw;
+}
+.itemlist{
+    display: flex;
+    width: 90%;
+    height: auto;
+    overflow: auto;
+    margin-left: 10px;
+}
+.itemlist2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    overflow: auto;
+    margin-left: 10px;
+}
+.itemlist li,.itemlist2 li{
+    list-style: none;
+}
+.card-subtitle{
+    background-color: rgb(163, 163, 245);
+    border-radius: 5px;
+    width: 6rem;
+    height: 1.2em;
+    text-align: center;
+    color: white;
+}
+.footer{
+    margin: auto;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(110, 106, 106);
+    padding: 0 20px;   
+}
+
